@@ -1,0 +1,9 @@
+Tipos de selectores:
+
+Universal : *
+De tipo : body{...}  (h1, p, a, li ... etiquetas de html)
+Clases : .class{...}
+Id : #Id{...}
+Por atributo: [ejempplo="valor"]{...}
+Descendiente: div p {...} (Elemento que está en otro elemento, ejemplo modificar el p que está en un div)
+pseudo-clases: p:hover{...} (hover:cursor encima)

@@ -1,0 +1,38 @@
+/* Selector universal */
+* {
+    background-color: rgb(171, 171, 248);
+}
+
+/* Selector de tipo o de etiqueta*/
+h1{
+    color: rgb(16, 126, 2);
+}
+
+/* Selector de clases */
+.clase{
+    color: red;
+}
+
+/* Selector de ID */
+#identificador{
+    color: white;
+}
+
+/* Selector por atributo */
+[por="atributo"]{
+    color: blue;
+}
+
+/* Selector por descendiente */
+.una_clase b {
+    color: pink;
+}
+
+.una_clase b span{
+    color: rgb(243, 9, 212);
+}+++
+
+/* Selector por pseudo clases */
+li:hover{
+    color: blue;
+}
